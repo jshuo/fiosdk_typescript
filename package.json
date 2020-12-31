@@ -27,6 +27,7 @@
         "@types/mocha": "^5.2.7",
         "@types/node": "^12.0.2",
         "chai": "^4.2.0",
+        "imports-loader": "^1.2.0",
         "jest": "^23.6.0",
         "jest-fetch-mock": "^2.1.2",
         "mocha": "^6.2.2",
@@ -39,11 +40,18 @@
         "typescript": "^3.6.4"
     },
     "dependencies": {
-        "@types/text-encoding": "0.0.35",
-        "bip39": "^3.0.2",
         "@fioprotocol/fiojs": "1.0.1",
+        "@types/text-encoding": "0.0.35",
+        "assert": "^2.0.0",
+        "bip39": "^3.0.2",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
         "hdkey": "^1.1.1",
+        "process": "^0.11.10",
+        "stream-browserify": "^3.0.0",
         "validate": "^5.1.0",
+        "webpack": "^5.11.1",
+        "webpack-cli": "^4.3.0",
         "wif": "^2.0.6"
     },
     "jest": {
