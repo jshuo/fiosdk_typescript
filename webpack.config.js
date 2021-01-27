@@ -1,12 +1,24 @@
 const webpack = require('webpack');
 
 module.exports = {
+  target: "web",
+  entry: {
+    index: './lib/FIOSDK.js'
+  },
+  output: {
+    library: 'FIOSDK',
+    filename: 'fiosdk.bundle.js'
+  },
   resolve: {
-    fallback: { "crypto": require.resolve("crypto-browserify"), "stream": require.resolve("stream-browserify") }
+    fallback: {
+      "crypto": require.resolve("crypto-browserify"),
+      "stream": require.resolve("stream-browserify"),
+    }
   },
   plugins: [
     new webpack.ProvidePlugin({
       process: 'process/browser',
+      Buffer: ['buffer', 'Buffer'],
     }),
   ],
   module: {
@@ -22,9 +34,6 @@ module.exports = {
         }],
       },
     ],
-  },
-  output: {
-      library: 'FIOSDK'
   }
 }
 
