@@ -136,7 +136,7 @@ export class Transactions {
       }
       return res.json()
     } catch (e) {
-      e.requestParams = { endPoint, body, fetchOptions }
+      // e.requestParams = { endPoint, body, fetchOptions }
       throw e
     }
   }
