@@ -1,4 +1,4 @@
-require('mocha')
+const  { before, describe, it } = require('mocha')
 const { expect } = require('chai')
 const { FIOSDK } = require('../lib/FIOSDK')
 const { EndPoint } = require('../lib/entities/EndPoint')
@@ -8,16 +8,20 @@ fetch = require('node-fetch')
 const fetchJson = async (uri, opts = {}) => {
   return fetch(uri, opts)
 }
+// const privateKey = '5JHy4Q5P1FvqTsfRBzbHVTFE83LepHvmQyjRt1AW677tazuZ4ne'
+// const publicKey = 'FIO6QhxLWAVaydsgbGWYaS9rcVBMytHK34jDkTWdboSspCKMaYDmB'
+// 5KTnvc9BwSoWNfowKL4D54yEAJwyshn3abyDBW8DGQjQwT2orT8
+// FIO6kWGTVSftKN3FwgiqDGoEwFKHoM7z5CG2rPL3XFTGiAjoLBfTJ
 
 /**
  * Please set your private/public keys and existing fioAddresses
  */
-let privateKey = '',
-  publicKey = '',
-  privateKey2 = '',
-  publicKey2 = '',
-  testFioAddressName = '',
-  testFioAddressName2 = ''
+let privateKey = '5JHy4Q5P1FvqTsfRBzbHVTFE83LepHvmQyjRt1AW677tazuZ4ne',
+  publicKey = 'FIO6QhxLWAVaydsgbGWYaS9rcVBMytHK34jDkTWdboSspCKMaYDmB',
+  privateKey2 = '5KTnvc9BwSoWNfowKL4D54yEAJwyshn3abyDBW8DGQjQwT2orT8',
+  publicKey2 = 'FIO6kWGTVSftKN3FwgiqDGoEwFKHoM7z5CG2rPL3XFTGiAjoLBfTJ',
+  testFioAddressName = 'jshuo',
+  testFioAddressName2 = 'secux'
 
 /**
  * Public Testnet API nodes can be found at: https://github.com/fioprotocol/fio.mainnet

@@ -1,6 +1,5 @@
 .DS_Store
 /example/fiofoundation-io-fiosdk
-/.vscode
 package-lock.json
 node_modules
 /android/build
