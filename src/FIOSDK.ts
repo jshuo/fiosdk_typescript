@@ -310,13 +310,13 @@ export class FIOSDK {
     publicKey: string,
     baseUrl: string,
     fetchjson: FetchJson,
-    hwtransport = null,
+    hwtransport:object,
     registerMockUrl = '',
     technologyProviderId: string = '',
     returnPreparedTrx: boolean = false,
 
   ) {
-    this.transactions = new Transactions()
+    this.transactions = new Transactions(hwtransport)
     Transactions.baseUrl = baseUrl
     Transactions.FioProvider = Fio
     Transactions.fetchJson = fetchjson

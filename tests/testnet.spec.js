@@ -27,7 +27,7 @@ let privateKey = '5JHy4Q5P1FvqTsfRBzbHVTFE83LepHvmQyjRt1AW677tazuZ4ne',
  * Public Testnet API nodes can be found at: https://github.com/fioprotocol/fio.mainnet
  */
 
-const baseUrl = 'https://fiotestnet.blockpane.com/v1/'   // e.g., 'https://testnet.fioprotocol.io/v1/'
+const baseUrl = 'https://fiotestnet.greymass.com/v1/'   // e.g., 'https://testnet.fioprotocol.io/v1/'
 
 const fioTestnetDomain = 'fiotestnet'
 const fioTokenCode = 'FIO'
@@ -41,11 +41,11 @@ const stakingTPID = ''   // e.g., 'autoproxy@fiotestnet'
 let fioSdk, fioSdk2
 
 const generateTestingFioAddress = (customDomain = fioTestnetDomain) => {
-  return `testing${Date.now()}@${customDomain}`
+  return `testing${Math.floor(Math.random() * 1000)}@${customDomain}`
 }
 
 const generateTestingFioDomain = () => {
-  return `testing-domain-${Date.now()}`
+  return `testing-domain-${Math.floor(Math.random() * 1000)}`
 }
 
 const generateObtId = () => {

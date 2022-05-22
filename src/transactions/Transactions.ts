@@ -10,10 +10,12 @@ const textEncoder: TextEncoder = new TextEncoder()
 const textDecoder: TextDecoder = new TextDecoder()
 
 export class Transactions {
+  
   public static baseUrl: string
   public static abiMap: Map<string, AbiResponse> = new Map<string, AbiResponse>()
   public static FioProvider: {
     prepareTransaction(param: any): Promise<any>;
+    prepareTransactionWithHardwareSign(param: any): Promise<any>;
     accountHash(pubkey: string): string
   }
 
@@ -24,6 +26,11 @@ export class Transactions {
 
   public validationData: object = {}
   public validationRules: any | null = null
+  public transport: object
+
+  constructor(transport: object) {
+    this.transport = transport
+  }
 
   public getActor(publicKey: string = ''): string {
     const actor = Transactions.FioProvider.accountHash((publicKey == '') ? this.publicKey : publicKey)
@@ -93,7 +100,14 @@ export class Transactions {
         transaction, chainId: chain.chain_id, privateKeys: privky, abiMap: Transactions.abiMap,
         textDecoder: new TextDecoder(), textEncoder: new TextEncoder(),
       })
-    } else {
+    } else if (this.transport) {
+      const signedTransaction = await Transactions.FioProvider.prepareTransactionWithHardwareSign({
+        transaction, chainId: chain.chain_id, transport: this.transport, abiMap: Transactions.abiMap,
+        textDecoder: new TextDecoder(), textEncoder: new TextEncoder(),
+      })
+      return this.executeCall(endpoint, JSON.stringify(signedTransaction))
+    } 
+    else {
       const signedTransaction = await Transactions.FioProvider.prepareTransaction({
         transaction, chainId: chain.chain_id, privateKeys: privky, abiMap: Transactions.abiMap,
         textDecoder: new TextDecoder(), textEncoder: new TextEncoder(),
