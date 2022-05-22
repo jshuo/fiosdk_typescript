@@ -105,11 +105,13 @@ export class FIOSDK {
     return { publicKey }
   }
 
+
+
   public static async getPublicKey(transport: any, path: string) {
     const { pathBuffer } = buildPathBuffer(path)
     const [cla, ins] = [0x80, 0xc1]
     const rsp = await transport.Send(cla, ins, 0, 0, pathBuffer)
-    const publicKey = rsp.data
+    const publicKey = rsp.data.slice(0, 32)
     return { publicKey }
   }
 
@@ -691,7 +693,7 @@ export class FIOSDK {
    * @param status Status of this OBT. Allowed statuses are: sent_to_blockchain.
    * @param obtId Other Blockchain Transaction ID (OBT ID), i.e Bitcoin transaction ID.
    * @param maxFee Maximum amount of SUFs the user is willing to pay for fee. Should be preceded by /get_fee for correct value.
-   * @param technologyProviderId FIO Address of the wallet which generates this transaction.
+   * @param technologyProviderId FIO Address of the wallet which generasptes this transaction.
    * @param payeeFioPublicKey Public address on other blockchain of user receiving funds.
    * @param memo
    * @param hash
