@@ -47,6 +47,7 @@ import { Constants } from './utils/constants'
 import { validate, allRules } from './utils/validation'
 import { ValidationError } from './entities/ValidationError'
 import { buildPathBuffer } from './utils/BIP32Path'
+import { toCompressed } from './utils/secux'
 
 /**
  * @ignore
@@ -111,8 +112,8 @@ export class FIOSDK {
     const { pathBuffer } = buildPathBuffer(path)
     const [cla, ins] = [0x80, 0xc1]
     const rsp = await transport.Send(cla, ins, 0, 0, pathBuffer)
-    const publicKey = rsp.data.slice(0, 32)
-    return { publicKey }
+    const publicKey = rsp.data
+    return toCompressed(publicKey)
   }
 
   /**
