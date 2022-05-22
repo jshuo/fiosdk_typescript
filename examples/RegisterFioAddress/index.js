@@ -66,7 +66,7 @@ async function main() {
 
 
 
-        const transferAmount = 1000000000   // 1 FIO
+        const transferAmount = 168000000   // 1 FIO
 
         result = await fioSdk.pushTransaction(
             'fio.token',
