@@ -15,7 +15,8 @@ fetch = require('node-fetch')
 const fetchJson = async (uri, opts = {}) => {
   return fetch(uri, opts)
 }
-
+// let privateKey = '5JHy4Q5P1FvqTsfRBzbHVTFE83LepHvmQyjRt1AW677tazuZ4ne',
+//   publicKey = 'FIO6QhxLWAVaydsgbGWYaS9rcVBMytHK34jDkTWdboSspCKMaYDmB',
 const privateKey = '5KDEgao6gCx8KvCgJVn5Nm6W4X9EkS8Uap4QydX2yezZrvkT9E6'
 const publicKey = 'FIO5QvSU16Z6h57WhfqBJ1z1TrLUvUW5etmeHygfGhDFz6mQiJdcE'
 // Public Key: FIO5QvSU16Z6h57WhfqBJ1z1TrLUvUW5etmeHygfGhDFz6mQiJdcE

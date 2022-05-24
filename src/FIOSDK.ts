@@ -286,6 +286,8 @@ export class FIOSDK {
    */
   public static SUFUnit: number = 1000000000
 
+  public static Transport: object = {}
+
   /**
    * Defines whether SignedTransaction would execute or return prepared transaction
    */
@@ -313,22 +315,22 @@ export class FIOSDK {
     publicKey: string,
     baseUrl: string,
     fetchjson: FetchJson,
-    hwtransport:object,
+    hwTransport:object,
     registerMockUrl = '',
     technologyProviderId: string = '',
     returnPreparedTrx: boolean = false,
 
   ) {
-    this.transactions = new Transactions(hwtransport)
+    this.transactions = new Transactions()
     Transactions.baseUrl = baseUrl
     Transactions.FioProvider = Fio
     Transactions.fetchJson = fetchjson
+    Transactions.hwTransport = hwTransport
     this.registerMockUrl = registerMockUrl
     this.privateKey = privateKey
     this.publicKey = publicKey
     this.technologyProviderId = technologyProviderId
     this.returnPreparedTrx = returnPreparedTrx
-    this.hwtransport = hwtransport
 
     for (const accountName of Constants.rawAbiAccountName) {
       this.getAbi(accountName)

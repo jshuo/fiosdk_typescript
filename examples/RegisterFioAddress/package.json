@@ -9,7 +9,7 @@
   "author": "Dapix, Inc. Copyright(c) 2020",
   "license": "MIT",
   "dependencies": {
-    "@fioprotocol/fiojs": "https://github.com/jshuo/fiojs.git#9dea5733b963a199b7b0458804cdb01a17c47599",
-    "@fioprotocol/fiosdk": "https://github.com/jshuo/fiosdk_typescript.git#38c307e45fcbe2baf3eb74e85667e78d802ab5af"
+    "@fioprotocol/fiojs": "^1.0.1",
+    "@fioprotocol/fiosdk": "https://github.com/jshuo/fiosdk_typescript.git#22bd04d35daea53019dd8df412f1b021fc296bd3"
   }
 }

@@ -20,17 +20,14 @@ export class Transactions {
   }
 
   public static fetchJson: FetchJson
+  public static hwTransport: object
   public publicKey: string = ''
   public privateKey: string = ''
   public serilizeEndpoint: string = 'chain/serialize_json'
 
   public validationData: object = {}
   public validationRules: any | null = null
-  public transport: object
 
-  constructor(transport: object) {
-    this.transport = transport
-  }
 
   public getActor(publicKey: string = ''): string {
     const actor = Transactions.FioProvider.accountHash((publicKey == '') ? this.publicKey : publicKey)
@@ -98,11 +95,11 @@ export class Transactions {
     if (dryRun) {
       return Transactions.FioProvider.prepareTransaction({
         transaction, chainId: chain.chain_id, privateKeys: privky, abiMap: Transactions.abiMap,
-        textDecoder: new TextDecoder(), textEncoder: new TextEncoder(),
+        textDecoder: new TextDecoder(), textEncoder: new TextEncoder(), 
       })
-    } else if (this.transport) {
+    } else if (Transactions.hwTransport) {
       const signedTransaction = await Transactions.FioProvider.prepareTransactionWithHardwareSign({
-        transaction, chainId: chain.chain_id, transport: this.transport, abiMap: Transactions.abiMap,
+        transaction, chainId: chain.chain_id, privateKeys: privky, transport: Transactions.hwTransport, abiMap: Transactions.abiMap,
         textDecoder: new TextDecoder(), textEncoder: new TextEncoder(),
       })
       return this.executeCall(endpoint, JSON.stringify(signedTransaction))

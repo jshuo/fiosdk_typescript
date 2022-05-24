@@ -1,0 +1,289 @@
+yarn install v1.3.2
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+$ npm run build
+
+> @fioprotocol/fiojs@1.0.1 build /home/secux/.cache/yarn/v1/.tmp/e364e56bde9c437776076e5574f8cc09.9dea5733b963a199b7b0458804cdb01a17c47599.prepare
+> mkdir -p dist && cp -r src/ecc dist && cp src/ripemd.es5.js dist/ripemd.js && tsc -p ./tsconfig.json
+
+node_modules/@types/chai/index.d.ts(412,54): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(30,54): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(30,57): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(30,66): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(35,20): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(50,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(54,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(60,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(65,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(66,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(72,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(77,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(83,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(89,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(93,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(97,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(101,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(107,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(108,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(112,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(113,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(120,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(121,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(126,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(127,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(130,51): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(130,54): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(130,63): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(131,9): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(135,23): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(139,23): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(143,34): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(148,39): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(153,22): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(158,21): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(170,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(173,47): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(173,50): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(173,59): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(174,9): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(175,49): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(176,27): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(176,63): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(177,9): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(182,26): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(186,24): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(190,27): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(194,28): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(198,29): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(202,30): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(206,53): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(210,54): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(214,53): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(218,52): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(222,25): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(222,26): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(226,21): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(226,22): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(231,25): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(231,26): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(236,36): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(236,37): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(241,56): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(244,9): error TS1136: Property assignment expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(244,17): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(244,25): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(250,32): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(250,47): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(250,48): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(250,57): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(255,31): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(255,46): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(255,47): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(255,56): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(260,43): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(260,58): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(260,59): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(260,68): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(265,42): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(265,57): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(265,58): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(265,67): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(272,25): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(272,48): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(272,49): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(272,80): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(277,27): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(277,33): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(281,33): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(281,56): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(281,57): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(281,66): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(286,40): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(286,63): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(286,64): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(286,73): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(292,38): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(292,46): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(297,32): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(297,55): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(297,56): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(297,65): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(303,37): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(303,45): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(307,22): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(311,25): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(311,34): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(315,24): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(315,30): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(320,27): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(320,33): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(326,31): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(326,39): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(326,45): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(331,19): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(331,28): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(331,59): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(337,18): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(337,27): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(337,62): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(341,19): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(341,61): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(345,23): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(345,29): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(358,22): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(358,39): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(358,45): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(358,47): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(362,18): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(362,24): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(403,48): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(403,51): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(403,60): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(403,83): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(416,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(421,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(427,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(435,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(440,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(448,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(456,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(460,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(465,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(469,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(477,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(478,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(479,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(487,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(492,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(497,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(503,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(507,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(513,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(519,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(526,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(533,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(541,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(547,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(553,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(558,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(562,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(567,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(574,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(578,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(582,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(586,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(591,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(596,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(602,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(606,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(607,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(614,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(618,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(625,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(633,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(641,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(650,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(657,9): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,33): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,36): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,39): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,41): error TS1131: Property or signature expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,45): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,57): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,58): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(666,79): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(676,16): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(676,19): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(676,20): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(676,45): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,11): error TS1005: '>' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,15): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,29): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,35): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,46): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,49): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,50): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,57): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(682,97): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(684,13): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(684,24): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(685,5): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,33): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,36): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,39): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,41): error TS1131: Property or signature expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,45): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,68): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,69): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1489,100): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,33): error TS1005: '?' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,39): error TS1005: ':' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,45): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,70): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,104): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1494,105): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1497,10): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,23): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,31): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,44): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,52): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,78): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,92): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,93): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1502,124): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,22): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,30): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,43): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,51): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,77): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,93): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,94): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1508,125): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1513,24): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1513,32): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1513,45): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1513,53): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1514,16): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1514,31): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1514,72): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1514,88): error TS1005: ',' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1515,10): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1515,41): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,23): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,31): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,44): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,52): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,78): error TS1005: ')' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,83): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,84): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1522,115): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,22): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,30): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,43): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,51): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,74): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,87): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,88): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,89): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1526,120): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,27): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,35): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,48): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,56): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,79): error TS1109: Expression expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,92): error TS1011: An element access expression should take an argument.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,93): error TS1005: ';' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,94): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1530,125): error TS1005: '(' expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1531,5): error TS1128: Declaration or statement expected.
+node_modules/@types/sinon-chai/node_modules/@types/sinon/index.d.ts(1716,1): error TS1128: Declaration or statement expected.
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
