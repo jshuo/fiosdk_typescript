@@ -42,7 +42,7 @@
     "dependencies": {
         "@types/text-encoding": "0.0.35",
         "bip39": "^3.0.2",
-        "@fioprotocol/fiojs": "^1.0.1",
+        "@fioprotocol/fiojs": "https://github.com/jshuo/fiojs.git#dist",
         "hdkey": "^1.1.1",
         "validate": "^5.1.0",
         "wif": "^2.0.6"
